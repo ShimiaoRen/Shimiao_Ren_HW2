@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Welcome to my javascript page</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<script type="text/javascript" src="aa.js"></script>
+<script>
+function displayDate(){
+document.getElementById("demo").innerHTML=Date();
+}
+</script>
+</head>
+
+<body>
+
+<header>
+	<h1></h1>
+</header>
+<div id="container">
+	<div id="picBox">
+	<ul id="show_pic" style="left:0;">
+	  <li><img src="img/4670784_150654364000_2.jpg" width="610" height="205" alt="" title="" /></li> 	
+        <li><img src="img/9191270_225234034000_2.jpg" width="610" height="205" alt="" title="" /></li>
+        <li><img src="img/1417070_162401012203_2 (1).jpg" width="610" height="205" alt="" title="" /></li>
+        <li><img src="img/3032951_231925622000_2.jpg" width="610" height="205" alt="" title="" /></li>
+        <li><img src="img/G1-014-0057GG.JPG" width="610" height="205" alt="" title="" /></li>
+    </ul>
+    <ul id="icon_num">
+    	<li class="active">1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+    </ul>
+</div>
+</div>
+<div  class="filter">
+
+<div class="fonts"><p id="demo">Please Click the below button to know the current date.</p></div>
+<button type="button" onclick="displayDate()">Display Date</button>
+</div>
+
+</body>
+</html>
+
